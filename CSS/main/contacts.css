@@ -1,0 +1,49 @@
+.contacts {
+  padding-top: 50px;
+  padding-bottom: 78px;
+
+  background: linear-gradient(#1b1a1b, #370a37);
+}
+
+.contacts__title {
+  margin-bottom: 60px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__list {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contacts__items {
+  padding-left: 65px;
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.contacts__items-address {
+  margin-bottom: 40px;
+  max-width: 300px;
+  background-image: url("../../images/icons/location.svg");
+}
+
+.contacts__items-phone {
+  margin-bottom: 10px;
+  background-image: url("../../images/icons/phone.svg");
+}
+
+.contacts__items-mail {
+  margin-bottom: 40px;
+  background-image: url("../../images/icons/mail.svg");
+}
+
+.contacts__social-link:not(:last-child) {
+  margin-right: 26px;
+}
+
+

@@ -1,0 +1,164 @@
+.booking {
+  padding: 40px 0 70px 0;
+  background-color: #440F51;
+}
+
+.booking__title {
+  margin-bottom: 24px;
+}
+
+.booking__halls-legend {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.booking__halls-legend--date-time {
+  margin-bottom: 46px;
+}
+
+.booking__halls-choosing {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 68px;
+}
+
+.input-radio input {
+  display: none;
+}
+
+.input-radio {
+  display: inline-block;
+  width: 250px;
+  padding: 7px 15px 8px;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.booking__halls-legend--entertainment {
+  margin-bottom: 40px;
+}
+
+.booking__entertainment-list {
+  display: flex;
+  justify-content: space-around;
+  width: 1080px;
+  margin-bottom: 60px;
+}
+
+.booking__entertainment-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking__entertainment-items__title {
+  margin-bottom: 23px;
+}
+
+
+.booking__entertainment-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__entertainment-additional {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__entertainment-board,
+.booking__entertainment-additional {
+  gap: 20px;
+}
+
+.booking__halls-legend {
+  margin-bottom: 38px;
+}
+.booking__datetime-wrapper {
+  display: flex;
+  width: 980px;
+  justify-content: center;
+  padding-left: 200px;
+  column-gap: 50px;
+}
+
+.booking__datetime-column-left {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  gap: 36px 32px;
+  padding-top: 22px;
+}
+
+.booking__datetime-date,
+.booking__datetime-time {
+  width: 134px;
+  height: 52px;
+  padding: 12px 0 12px 20px;
+}
+
+.booking__datetime-people {
+  width: 300px;
+  height: 52px;
+  padding: 12px 0 12px 20px;
+}
+
+.booking__datetime-column-middle {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  row-gap: 14px;
+}
+
+.booking__datetime-name {
+  width: 280px;
+  height: 52px;
+  padding: 12px 0 12px 20px;
+}
+
+.booking__datetime-column-right {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  row-gap: 14px;
+}
+
+.booking__datetime-email {
+  width: 300px;
+  height: 52px;
+  padding: 12px 0 12px 20px;
+}
+
+.booking__datetime-column-label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.booking__form-button-wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+.booking__form-button {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  padding: 16px 50px;
+
+  font-weight: 700;
+  font-size: 22px;
+  color: #6c0287;
+}

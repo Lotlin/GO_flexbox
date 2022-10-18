@@ -1,0 +1,40 @@
+.halls {
+  padding: 50px 0;
+}
+
+.halls__title {
+  margin-bottom: 60px;
+}
+
+.halls__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.halls__block {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  max-width: 580px;
+}
+
+.halls__block:nth-of-type(odd) {
+  margin-right: 15px;
+}
+
+.halls__block:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.halls__img {
+  width: 580px;
+}
+
+.halls__h3 {
+  position: absolute;
+  padding-top: 0;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  white-space: nowrap;
+}

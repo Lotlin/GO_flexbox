@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 78px;
+  padding-bottom: 8px;
+
+  background-color: #370a37;
+
+  font-size: 14px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright-p {
+  margin-bottom: 6px;
+}
